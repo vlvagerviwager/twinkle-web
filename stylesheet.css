@@ -1,0 +1,82 @@
+body{
+	background-color:  #000000;
+}
+
+div.circle{
+	width: 60px;
+	height: 60px;
+	background: #FF99FF;
+	border-radius: 50%;
+	margin: 2px;
+	display: inline-block;
+}
+
+#two{
+	background: #99FF99;
+}
+
+#three{
+	background: #66FF66;
+}
+
+#four{
+	background: #CCFFCC;
+}
+
+div.heart {
+    position: relative;
+    width: 60px;
+    height: 60px;
+	margin: 2px;
+	display: inline-block;
+}
+.heart::before, .heart::after {
+    position: absolute;
+    content: "";
+    left: 29px;
+    top: 0;
+    width: 31px;
+    height: 55px;
+    background: #FFCCFF;
+    border-radius: 30px 30px 0 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.heart::after {
+    left: -2px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin :100% 100%;
+}
+
+/*
+	background: #FF99FF;
+	
+	pink
+	#FF99FF
+	#FFCCFF
+	
+	greens
+	#66FF66	
+	#99FF99
+	
+	off-white
+	#CCFFCC
+	
+	white
+	#FFFFFF
+*/
+
+p{
+    color: white;
+	font-family: arial;	
+	font-size: 12;
+}
+
+ul .ui-selected {
+    background: #F39814; 
+	color: purple;
+}
