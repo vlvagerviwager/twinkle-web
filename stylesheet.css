@@ -1,21 +1,3 @@
-/*
-	background: #FF99FF;
-	
-	pinks
-	#FF99FF
-	#FFCCFF
-	
-	greens
-	#66FF66	
-	#99FF99
-	
-	off-white
-	#CCFFCC
-	
-	white
-	#FFFFFF
-*/
-
 body{
 	background-color:  #000000;
 }
@@ -122,3 +104,21 @@ h2 {
     padding: 5px;
     cursor: pointer;
 }
+
+/*
+	background: #FF99FF;
+	
+	pinks
+	#FF99FF
+	#FFCCFF
+	
+	greens
+	#66FF66	
+	#99FF99
+	
+	off-white
+	#CCFFCC
+	
+	white
+	#FFFFFF
+*/
