@@ -15,17 +15,6 @@ $(document).ready(function() {
 	
 	$('.heart, .circle').draggable();
 	
-/*
-	$('.shapes').mouseover(function() {
-		$(this).fadeTo('slow', 0.1);
-	});
-	
-	$('.shapes').mouseleave(function() {
-		$(this).fadeTo('fast', 1);
-	});
-	
-	$('.shapes').draggable();
-*/	
 	$('p').hide();
 	$('ul').hide();
 });
