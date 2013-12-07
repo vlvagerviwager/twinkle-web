@@ -1,13 +1,17 @@
 $(document).ready(function() {
-	$('div').mouseover(function() {
+	$('.close').click(function () {
+		$('.modal').fadeOut('fast');
+	});
+	
+	$('.shapes').mouseover(function() {
 		$(this).fadeTo('slow', 0.1);
 	});
 	
-	$('div').mouseleave(function() {
+	$('.shapes').mouseleave(function() {
 		$(this).fadeTo('fast', 1);
 	});
 	
-	$('div').draggable();
+	$('.shapes').draggable();
 	
 	$('p').hide();
 	$('ul').hide();
